@@ -34,10 +34,10 @@ git subtree push --prefix server heroku master
 2. Install WiringPi (`sudo apt-get install wiringpi`)
 3. Upload `pi/*.sh` to `/home/pi`
 4. Set the `GONG_TOKEN` and `SERVER` variables in `cron.sh`
-5. Add a cron job with `crontab -e`. The following will run Mon-Fri from 9:00 - 6:00:
+5. Add a cron job with `crontab -e`. The following will run Mon-Fri from 9:00 - 6:00 ET:
 
 ```
-* 9-18 * * 1-5 sh /home/pi/cron.sh
+* 13-22 * * 1-5 sh /home/pi/cron.sh
 ```
 
 ## Usage

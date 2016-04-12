@@ -1,6 +1,6 @@
 #!/bin/bash
 # Crontab:
-# * 9-18 * * 1-5 sh /home/pi/cron.sh
+# * 13-22 * * 1-5 sh /home/pi/cron.sh
 
 GONG_TOKEN="<SET A TOKEN>"
 SERVER="<YOUR GONG SERVER>"
